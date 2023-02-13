@@ -2,6 +2,8 @@
 
 int main()
 {
+    // solution 
+    
     int num_one, num_two, result;
 
     scanf("%d %d",&num_one, &num_two);

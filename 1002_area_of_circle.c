@@ -4,7 +4,8 @@
 
 int main()
 {
-
+    // solution 
+    
     double r, rslt;
 
     scanf("%lf",&r);

@@ -2,6 +2,7 @@
 
 int main()
 {
+    // solution
     float num_one, num_two, num_three, average;
 
     scanf("%f %f %f",&num_one, &num_two, &num_three);
