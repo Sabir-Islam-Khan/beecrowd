@@ -4,14 +4,14 @@ int main()
 {
     // solution
 
-    float salary, sales, result;
-    char name[100];
-    scanf("%s",name);
-    scanf("%f %f", &salary, &sales);
+    int prod_one, prod_one_unit, prod_two, prod_two_unit;
+    float prod_one_price, prod_two_price, sum;
 
-    result = salary + ((sales/100) * 15 );
+    scanf("%d %d %f %d %d %f",&prod_one, &prod_one_unit, &prod_one_price, &prod_two, &prod_two_unit, &prod_two_price);
 
-    printf("TOTAL = R$ %.2f\n",result);
+    sum = (prod_one_unit * prod_one_price) + (prod_two_unit * prod_two_price);
+
+    printf("VALOR A PAGAR: R$ %.2f\n",sum);
 
     return 0;
 }
